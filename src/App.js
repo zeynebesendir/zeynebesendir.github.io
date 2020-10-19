@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles } from '@material-ui/core/styles';
+import { CssBaseline } from '@material-ui/core';
+import Home from './components/home';
+import ProjectList from './components/project-list';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const useStyles = makeStyles((theme) => ({
+  root: {
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/background.jpg'})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    minHeight: '100vh'
+  },
+}));
+
+export default function App() {
+
+  const classes = useStyles();
+
+  return (<div className={classes.root} >
+    <CssBaseline />
+    <Home />
+    <ProjectList />
+  </div>);
 }
-
-export default App;
