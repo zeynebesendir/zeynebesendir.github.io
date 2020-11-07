@@ -23,3 +23,12 @@ export default function App() {
     <ProjectList />
   </div>);
 }
+
+/*
+yarn add @material-ui/core
+
+yarn add @material-ui/icons
+
+npm i react-scroll
+ 
+ */

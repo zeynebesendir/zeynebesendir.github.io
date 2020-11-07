@@ -35,6 +35,9 @@ const useStyles = makeStyles({
 
     descripton: {
         fontFamily: 'Nunito',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
         color: '#ddd',
         fontSize: 16
     },

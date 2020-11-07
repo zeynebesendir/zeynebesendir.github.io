@@ -28,7 +28,7 @@ export default function ProjectList() {
     const classes = useStyles();
     const checked = useWindowPosition('home');
     /*
-    checked is the animation s state
+    checked is the animation' s state
     animation will be run after scrolling the top (home) of the page
     useWindowPosition will check the position/offset of the home. 
     When the offset value is changed, animation will begin.

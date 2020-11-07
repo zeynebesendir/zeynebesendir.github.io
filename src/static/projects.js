@@ -1,21 +1,20 @@
 const projects = [
     {
         id: 'P01',
-        title: 'Online Shopping',
-        description: 'React, Material, JS, Firebase',
-        imageURL: process.env.PUBLIC_URL + '/assets/online-shopping.png',
-        githubURL: 'https://github.com/zeynebesendir/crwn-shopping',
+        title: 'COVID19 UK Dashboard',
+        description: 'React, JavaScript, JSON, Material-UI, DevExtreme',
+        imageURL: process.env.PUBLIC_URL + '/assets/covid-dashboard.png',
+        githubURL: 'https://github.com/zeynebesendir/covid19-data-visualisation',
         liveURL: 'https://zeynebesendir.github.io/'
     },
     {
         id: 'P02',
-        title: 'COVID-19 UK Graphic',
-        description: 'React, Material UI, JavaScript',
-        imageURL: process.env.PUBLIC_URL + '/assets/movie-box.png',
-        githubURL: 'https://github.com/zeynebesendir/movie-box',
+        title: 'Online Shopping',
+        description: 'React, JavaScript, Firebase',
+        imageURL: process.env.PUBLIC_URL + '/assets/online-shopping.png',
+        githubURL: 'https://github.com/zeynebesendir/crwn-shopping',
         liveURL: 'https://zeynebesendir.github.io/'
     },
-
     {
         id: 'P03',
         title: 'Movie Box : IMDb App',
@@ -26,11 +25,11 @@ const projects = [
     },
     {
         id: 'P04',
-        title: 'Monsters',
-        description: 'React, Material UI, JavaScript',
-        imageURL: process.env.PUBLIC_URL + '/assets/monsters.png',
-        githubURL: 'https://github.com/zeynebesendir/monsters',
-        liveURL: 'https://zeynebesendir.github.io/monsters'
+        title: 'Portfolio Webpage',
+        description: 'React,  JavaScript, Material-UI',
+        imageURL: process.env.PUBLIC_URL + '/assets/portfolio.png',
+        githubURL: 'https://github.com/zeynebesendir/portfolio',
+        liveURL: 'https://zeynebesendir.github.io/'
     },
 ]
 
