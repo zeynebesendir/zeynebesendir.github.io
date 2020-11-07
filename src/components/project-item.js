@@ -54,12 +54,16 @@ export default function ImgMediaCard({ project, checked }) {
     return (
         <Collapse in={checked}  {...(checked ? { timeout: 2000 } : {})}>
             <Card className={classes.root}>
+
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
                         image={project.imageURL}
                         title="Project"
                         component='img'
+                        onClick={() => {
+                            window.open(project.liveURL);
+                        }}
                     />
 
                     <CardContent >
