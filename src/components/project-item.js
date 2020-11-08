@@ -15,15 +15,19 @@ const useStyles = makeStyles({
         maxWidth: 750,
         height: 640,
         backgroundColor: '#292C34',
+        margin: '2rem',
         borderRadius: '12px',
-        margin: '2rem'
-    },
+        padding: '0.04rem'
 
+    },
     media: {
         height: 500,
         objectFit: 'cover',
         objectPosition: 'left top',
-        backgroundColor: '#FFF',
+        backgroundColor: '#292C34',
+        borderTopLeftRadius: '12px',
+        borderTopRightRadius: '12px',
+
     },
 
     title: {
@@ -53,6 +57,7 @@ export default function ImgMediaCard({ project, checked }) {
 
     return (
         <Collapse in={checked}  {...(checked ? { timeout: 2000 } : {})}>
+
             <Card className={classes.root}>
 
                 <CardActionArea>
@@ -96,6 +101,7 @@ export default function ImgMediaCard({ project, checked }) {
                 </Button>
                 </CardActions>
             </Card>
+
         </Collapse>
     );
 }

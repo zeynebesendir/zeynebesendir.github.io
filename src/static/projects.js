@@ -17,7 +17,7 @@ const projects = [
     },
     {
         id: 'P03',
-        title: 'Movie Box : IMDb App',
+        title: 'Movie Box',
         description: 'C#, XAML, JSON, OOP',
         imageURL: process.env.PUBLIC_URL + '/assets/movie-box.png',
         githubURL: 'https://github.com/zeynebesendir/movie-box',
