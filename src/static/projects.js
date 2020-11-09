@@ -27,7 +27,7 @@ const projects = [
         id: 'P04',
         title: 'Portfolio Webpage',
         description: 'React,  JavaScript, Material-UI',
-        imageURL: process.env.PUBLIC_URL + '/assets/portfolio.png',
+        imageURL: process.env.PUBLIC_URL + '/assets/portfolio-page.png',
         githubURL: 'https://github.com/zeynebesendir/portfolio',
         liveURL: 'https://zeynebesendir.github.io/'
     },
