@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     media: {
         height: 500,
         objectFit: 'cover',
-        objectPosition: 'left top',
+        objectPosition: 'top center',
         backgroundColor: '#292C34',
         borderTopLeftRadius: '12px',
         borderTopRightRadius: '12px',
@@ -47,6 +47,7 @@ const useStyles = makeStyles({
     },
     buttonTxt: {
         fontFamily: 'Nunito',
+        fontWeight: 'bold',
         color: '#e80071',
         fontSize: 14
     },

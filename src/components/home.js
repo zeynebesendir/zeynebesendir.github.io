@@ -82,7 +82,7 @@ export default function Home() {
                         <h1 className={classes.welcomeTxt}>
                             Hello,   I'm   <span className={classes.welcomeTxtColored}> Zeyneb</span>.
                             <br />
-                            I am a Junior Software Engineer
+                            I am a Junior Front End Developer
                         </h1>
                         <h2><LocationOnIcon className={classes.iconImage} /> Epsom, UK </h2>
                         <div>
